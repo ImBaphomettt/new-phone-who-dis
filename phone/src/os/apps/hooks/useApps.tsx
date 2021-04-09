@@ -14,6 +14,7 @@ export const useApps = () => {
   const apps: IApp[] = useMemo(
     () =>
       APPS.map((app) => {
+        
         const SvgIcon = React.lazy<SvgIconComponent>(
           () => import(`${__dirname}/../icons/${iconset}/svg/${app.id}`),
         );
