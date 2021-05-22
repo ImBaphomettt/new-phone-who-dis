@@ -2,7 +2,7 @@ import React from 'react';
 import { AppWrapper } from '../../../ui/components/AppWrapper';
 import { AppContent } from '../../../ui/components/AppContent';
 import { MarketplaceTitle } from './MarketplaceTitle';
-import { MarketplaceListContainer } from './MarketplaceList/MarketplaceListContainer';
+import { MarketplaceListContainer } from './SelloutList/MarketplaceListContainer';
 import { NavigationBar } from './navigation/NavigationBar';
 import { Switch, Route } from 'react-router-dom';
 import { ListingFormContainer } from './form/ListingFormContainer';
@@ -13,7 +13,7 @@ import { MarketplaceEvents } from '../../../../../typings/marketplace';
 export const MarketplaceApp = () => {
   return (
     <MarketplaceThemeProvider>
-      <AppWrapper id="marketplace-app">
+      <AppWrapper id="sellout-app">
         <MarketplaceTitle />
         <AppContent>
           <Switch>
@@ -29,7 +29,7 @@ export const MarketplaceApp = () => {
 
 InjectDebugData([
   {
-    app: 'MARKETPLACE',
+    app: 'SELLOUT',
     method: MarketplaceEvents.SEND_LISTING,
     data: [
       {

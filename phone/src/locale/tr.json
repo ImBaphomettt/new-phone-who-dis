@@ -2,7 +2,9 @@
   "translation": {
     "DATE_FORMAT": "MM/DD/YYYY",
     "DATE_TIME_FORMAT": "MM/DD/YYYY hh:mm A",
+
     "COMING_SOON": "Yakında...",
+
     "APPS_DIALER": "Telefon",
     "APPS_CONTACTS": "Kişiler",
     "APPS_MESSAGES": "Mesajlar",
@@ -12,8 +14,9 @@
     "APPS_NOTES": "Notlar",
     "APPS_EXAMPLE": "Örnek uygulama",
     "APPS_TWITTER": "Twitter",
-    "APPS_MARKETPLACE": "Market",
+    "APPS_SELLOUT": "Market",
     "APPS_CAMERA": "Camera",
+
     "APPS_DIALER_INCOMING_CALL_TITLE": "Incoming Phone Call",
     "APPS_DIALER_CURRENT_CALL_TITLE": "Current Phone Call",
     "APPS_DIALER_CURRENT_CALL_WITH": "In call with {{ transmitter }}",
@@ -21,6 +24,7 @@
     "APPS_DIALER_ACCEPT_CALL": "Accept",
     "APPS_DIALER_REJECT_CALL": "Reject",
     "APPS_DIALER_END_CALL": "End",
+
     "APPS_TWITTER_TWEET": "Tweetle",
     "APPS_TWITTER_TWEET_MESSAGE_PLACEHOLDER": "Neler oluyor?",
     "APPS_TWITTER_IMAGE_PLACEHOLDER": "GIF veya Resminin linki",
@@ -50,6 +54,7 @@
     "APPS_TWITTER_TIME_DAYS": "d",
     "APPS_TWITTER_NEW_BROADCAST": "New tweet from @{{ profile_name }}!",
     "APPS_TWITTER_UNREAD_MESSAGES": "You have {{ count }} new tweets in your timeline!",
+
     "APPS_BANK_TRANSFER": "Transfer",
     "APPS_BANK_HOME_TITLE": "Hoşgeldin",
     "APPS_BANK_ACCOUNT_LINK": "Hesap",
@@ -60,6 +65,7 @@
     "APPS_BANK_ACTIONS_TRANSFER": "Transfer",
     "APPS_BANK_ALERT_TRANSFER_SUCCESS": "Transfer başarıyla tamamlandı!",
     "APPS_BANK_ALERT_TRANSFER_FAILURE": "Transfer başarısız!",
+
     "APPS_MESSAGES_SEARCH_PLACEHOLDER": "Mesajları ara...",
     "APPS_MESSAGES_NEW_MESSAGE": "Mesaj...",
     "APPS_MESSAGES_NEW_MESSAGE_FAILED:": "Failed to send message",
@@ -71,9 +77,11 @@
     "APPS_MESSAGES_MESSAGE_GROUP_CREATE_FAILED": "Mesaj grubu oluşturulamadı.",
     "APPS_MESSAGES_MESSAGE_GROUP_CREATE_MINE": "Kendini ekleyemezsin!",
     "APPS_MESSAGES_INPUT_NAME_OR_NUMBER": "Search contacts or type number and press enter",
+
     "APPS_CONTACT_FORM_NAME": "İsim",
     "APPS_CONTACT_FORM_NUMBER": "Numara",
     "APPS_CONTACT_FORM_AVATAR": "Avatar LINK",
+
     "APPS_CONTACT_ADD_SUCCESS": "Kişi başarıyla oluşturuldu!",
     "APPS_CONTACT_ADD_FAILED": "Kişi oluşturulamadı!",
     "APPS_CONTACT_UPDATE_SUCCESS": "Kişi başarıyla güncellendi!",
@@ -85,15 +93,19 @@
     "APPS_CONTACT_MODAL_PLACEHOLDER_NUMBER": "Number",
     "APPS_CONTACT_MODAL_PLACEHOLDER_AVATAR": "Avatar",
     "APPS_CONTACT_MODAL_BUTTON_ADD": "Add Contact",
+
     "APPS_NOTES_ADD_SUCCESS": "Successfully saved note.",
     "APPS_NOTES_ADD_FAILED": "Failed to save note.",
     "APPS_NOTES_UPDATE_SUCCESS": "Successfully updated note.",
     "APPS_NOTES_UPDATE_FAILED": "Failed to update note.",
     "APPS_NOTES_DELETE_SUCCESS": "Successfully deleted note.",
     "APPS_NOTES_DELETE_FAILED": "Failed to delete note.",
+
     "APPS_CALCULATOR_COPIED": "Result was copied to clipboard!",
+
     "APPS_MARKETPLACE_CREATE_LISTING_SUCCESS": "Successfully created a new listing",
     "APPS_MARKETPALCE_CREATE_LISTING_FAILED": "Failed to create a new listing",
+
     "APPS_SETTINGS_PHONE_NUMBER": "Phone Number",
     "APPS_SETTINGS_OPTION_WALLPAPER": "Wallpaper",
     "APPS_SETTINGS_OPTION_FRAME": "Frame",
@@ -103,6 +115,7 @@
     "APPS_SETTINGS_OPTION_RINGTONEVOL": "Ringtone Volume",
     "APPS_SETTINGS_OPTION_NOTIFICATION": "Notification",
     "APPS_SETTINGS_OPTION_NOTIFICATIONVOL": "Notification Volume",
+
     "GENERIC_SAVE": "Save",
     "GENERIC_UPDATE": "Update",
     "GENERIC_DELETE": "Delete",

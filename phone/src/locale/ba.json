@@ -2,7 +2,9 @@
   "translation": {
     "DATE_FORMAT": "MM/DD/YYYY",
     "DATE_TIME_FORMAT": "MM/DD/YYYY hh:mm A",
+
     "COMING_SOON": "Dolazi ubrzo....",
+
     "APPS_DIALER": "Telephone",
     "APPS_CONTACTS": "Contacti",
     "APPS_MESSAGES": "Poruke",
@@ -12,8 +14,9 @@
     "APPS_NOTES": "Bilješke",
     "APPS_EXAMPLE": "Primjerna Aplikacija",
     "APPS_TWITTER": "Twitter",
-    "APPS_MARKETPLACE": "Market",
+    "APPS_SELLOUT": "Market",
     "APPS_CAMERA": "Camera",
+
     "APPS_DIALER_INCOMING_CALL_TITLE": "Dolazi telefonski poziv",
     "APPS_DIALER_CURRENT_CALL_TITLE": "Trenutni telefonski poziv",
     "APPS_DIALER_CURRENT_CALL_WITH": "U pozivu sa {{ transmitter }}",
@@ -21,6 +24,7 @@
     "APPS_DIALER_ACCEPT_CALL": "Prihvati",
     "APPS_DIALER_REJECT_CALL": "Odbaci",
     "APPS_DIALER_END_CALL": "Kraj",
+
     "APPS_TWITTER_TWEET": "Tweet",
     "APPS_TWITTER_TWEET_MESSAGE_PLACEHOLDER": "Šta ima?",
     "APPS_TWITTER_IMAGE_PLACEHOLDER": "Link do vašeg slike ili gifa",
@@ -50,6 +54,7 @@
     "APPS_TWITTER_TIME_DAYS": "d",
     "APPS_TWITTER_NEW_BROADCAST": "Novi tweet od @{{ profile_name }}!",
     "APPS_TWITTER_UNREAD_MESSAGES": "Ima te {{ count }} novi twittova na vasem timeline!",
+
     "APPS_BANK_TRANSFER": "Prebaciti Novac",
     "APPS_BANK_HOME_TITLE": "Dobrodošli!",
     "APPS_BANK_ACCOUNT_LINK": "Račun",
@@ -60,6 +65,7 @@
     "APPS_BANK_ACTIONS_TRANSFER": "Prebaciti Novac",
     "APPS_BANK_ALERT_TRANSFER_SUCCESS": "uspješno prebacio novac!",
     "APPS_BANK_ALERT_TRANSFER_FAILURE": "Nismo uspjeli prebaciti novac!",
+
     "APPS_MESSAGES_SEARCH_PLACEHOLDER": "Po tražiti poruke ...",
     "APPS_MESSAGES_NEW_MESSAGE": "Poruka...",
     "APPS_MESSAGES_NEW_MESSAGE_FAILED:": "Failed to send message",
@@ -74,9 +80,11 @@
     "APPS_MESSAGES_UNREAD_MESSAGES": "imate {{ count }} nepročitanu poruku",
     "APPS_MESSAGES_MEMBERS_TITLE": "Clanovi",
     "APPS_MESSAGES_ME": "Ja",
+
     "APPS_CONTACT_FORM_NAME": "Ime",
     "APPS_CONTACT_FORM_NUMBER": "Brok",
     "APPS_CONTACT_FORM_AVATAR": "URL za avatar",
+
     "APPS_CONTACT_ADD_SUCCESS": "Uspješno napravili novi kontakt!",
     "APPS_CONTACT_ADD_FAILED": "Nismo uspjeli stvoriti novi kontakt!",
     "APPS_CONTACT_UPDATE_SUCCESS": "Uspješno ažurirali kontakt!",
@@ -88,13 +96,16 @@
     "APPS_CONTACT_MODAL_PLACEHOLDER_NUMBER": "Broj",
     "APPS_CONTACT_MODAL_PLACEHOLDER_AVATAR": "Avatar",
     "APPS_CONTACT_MODAL_BUTTON_ADD": "Dodajte kontakt",
+
     "APPS_NOTES_ADD_SUCCESS": "Bilješka je uspješno spremljena.",
     "APPS_NOTES_ADD_FAILED": "Spremanje bilješke nije uspjelo.",
     "APPS_NOTES_UPDATE_SUCCESS": "Bilješka je uspješno ažurirana.",
     "APPS_NOTES_UPDATE_FAILED": "Ažuriranje bilješke nije uspjelo.",
     "APPS_NOTES_DELETE_SUCCESS": "Bilješka je uspješno izbrisana.",
     "APPS_NOTES_DELETE_FAILED": "Brisanje bilješke nije uspjelo.",
+
     "APPS_CALCULATOR_COPIED": "Rezultat je kopiran u međuspremnik!",
+
     "APPS_SETTINGS_PHONE_NUMBER": "Broj Telephona",
     "APPS_SETTINGS_OPTION_WALLPAPER": "Wallpaper",
     "APPS_SETTINGS_OPTION_FRAME": "Frame",
@@ -104,8 +115,10 @@
     "APPS_SETTINGS_OPTION_RINGTONEVOL": "Jačina zvona",
     "APPS_SETTINGS_OPTION_NOTIFICATION": "Obavijest",
     "APPS_SETTINGS_OPTION_NOTIFICATIONVOL": "Jačina obavijesti",
+
     "APPS_MARKETPLACE_CREATE_LISTING_SUCCESS": "Uspješno kreiran novi unos",
     "APPS_MARKETPALCE_CREATE_LISTING_FAILED": "Stvaranje novog popisa nije uspjelo",
+
     "GENERIC_SAVE": "Save",
     "GENERIC_UPDATE": "Update",
     "GENERIC_DELETE": "izbriši",

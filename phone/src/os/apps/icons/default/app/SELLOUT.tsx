@@ -1,7 +1,7 @@
 import React from 'react';
 import SvgIcon, { SvgIconProps } from '@material-ui/core/SvgIcon';
 
-const MarketplaceAppIcon = (props: SvgIconProps) => {
+const SelloutAppIcon = (props: SvgIconProps) => {
   return (
     <SvgIcon {...props}>
       <svg
@@ -12,7 +12,7 @@ const MarketplaceAppIcon = (props: SvgIconProps) => {
         clipRule="evenodd"
         viewBox="0 0 176 178"
       >
-        <metadata id="author">dayiskuan@gmail.com</metadata>
+      <metadata id="author">dayiskuan@gmail.com</metadata>
         <path fill="none" d="M0 0H176V178H0z"></path>
         <clipPath id="_clip1">
           <path d="M0 0H176V178H0z"></path>
@@ -43,4 +43,4 @@ const MarketplaceAppIcon = (props: SvgIconProps) => {
   );
 };
 
-export default MarketplaceAppIcon;
+export default SelloutAppIcon;

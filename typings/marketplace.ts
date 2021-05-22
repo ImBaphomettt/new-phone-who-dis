@@ -14,7 +14,7 @@ export enum MarketplaceEvents {
   ADD_LISTING_SUCCESS = 'npwd:addListingSuccess',
   FETCH_LISTING = 'npwd:fetchAllListings',
   SEND_LISTING = 'npwd:sendAllListings',
-  ACTION_RESULT = 'npwd:marketplaceActionResult',
+  ACTION_RESULT = 'npwd:selloutActionResult',
   DELETE_LISTING = 'npwd:marketplaceDeleteListing',
   DELETE_LISTING_SUCCESS = 'npwd:marketplaceDeleteListingSuccess',
   REPORT_LISTING = 'npwd:reportListing',
