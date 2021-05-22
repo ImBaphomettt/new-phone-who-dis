@@ -1,5 +1,5 @@
 import { useNuiEvent } from 'fivem-nui-react-lib';
-import { selloutState } from './state';
+import { marketplaceState } from './state';
 import { useListing } from './useListing';
 import { useSetRecoilState } from 'recoil';
 import { IAlert, useSnackbar } from '../../../ui/hooks/useSnackbar';
@@ -7,7 +7,7 @@ import { useTranslation } from 'react-i18next';
 import { MarketplaceEvents } from '../../../../../typings/marketplace';
 
 export const useMarketplaceService = () => {
-  const setSellout = useSetRecoilState(selloutState.listing);
+  const setMarketplace = useSetRecoilState(marketplaceState.listing);
   const { addAlert } = useSnackbar();
   const { t } = useTranslation();
 
@@ -18,7 +18,7 @@ export const useMarketplaceService = () => {
     });
   };
 
-  useNuiEvent('SELLOUT', MarketplaceEvents.SEND_ALERT, handleAddAlert);
-  useNuiEvent('SELLOUT', MarketplaceEvents.SEND_LISTING, setSellout);
+  useNuiEvent('MARKETPLACE', MarketplaceEvents.SEND_ALERT, handleAddAlert);
+  useNuiEvent('MARKETPLACE', MarketplaceEvents.SEND_LISTING, setMarketplace);
   return useListing();
 };

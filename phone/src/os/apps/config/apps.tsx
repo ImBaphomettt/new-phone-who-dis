@@ -22,8 +22,8 @@ import {
   CONTACTS_APP_TEXT_COLOR,
 } from '../../../apps/contacts/contacts.theme';
 import {
-  SELLOUT_APP_PRIMARY_COLOR,
-  SELLOUT_APP_ICON_COLOR,
+  MARKETPLACE_APP_PRIMARY_COLOR,
+  MARKETPLACE_APP_ICON_COLOR,
 } from '../../../apps/marketplace/marketplace.theme';
 import { NOTES_APP_ICON_COLOR, NOTES_APP_PRIMARY_COLOR } from '../../../apps/notes/notes.theme';
 import { DIALER_APP_PRIMARY_COLOR, DIALER_APP_TEXT_COLOR } from '../../../apps/dialer/dialer.theme';
@@ -119,10 +119,10 @@ export const APPS: IAppConfig[] = [
     Route: () => <AppRoute id="TWITTER" path="/twitter" component={TwitterApp} />,
   },
   {
-    id: 'SELLOUT',
-    nameLocale: 'APPS_SELLOUT',
-    backgroundColor: SELLOUT_APP_PRIMARY_COLOR,
-    color: SELLOUT_APP_ICON_COLOR,
+    id: 'MARKETPLACE',
+    nameLocale: 'APPS_MARKETPLACE',
+    backgroundColor: MARKETPLACE_APP_PRIMARY_COLOR,
+    color: MARKETPLACE_APP_ICON_COLOR,
     path: '/marketplace',
     Route: () => <AppRoute id="MARKETPLACE" path="/marketplace" component={MarketplaceApp} />,
   },

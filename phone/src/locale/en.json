@@ -46,10 +46,8 @@
       "y": "a year",
       "yy": "%d years"
     },
-
     "COMING_SOON": "Coming soon...",
     "INITIALIZING": "Initializing",
-
     "APPS_DIALER": "Phone",
     "APPS_CONTACTS": "Contacts",
     "APPS_MESSAGES": "Messages",
@@ -59,9 +57,8 @@
     "APPS_NOTES": "Notes",
     "APPS_EXAMPLE": "Example app",
     "APPS_TWITTER": "Twitter",
-    "APPS_SELLOUT": "Market",
+    "APPS_MARKETPLACE": "Market",
     "APPS_CAMERA": "Camera",
-
     "APPS_DIALER_INCOMING_CALL_TITLE": "Incoming Phone Call",
     "APPS_DIALER_CURRENT_CALL_TITLE": "Current Phone Call",
     "APPS_DIALER_CURRENT_CALL_WITH": "In call with {{ transmitter }}",
@@ -74,7 +71,6 @@
     "APPS_DIALER_NAVBAR_HISTORY": "History",
     "APPS_DIALER_NAVBAR_DIAL": "Dial",
     "APPS_DIALER_NAVBAR_CONTACTS": "Contacts",
-
     "APPS_TWITTER_TWEET": "Tweet",
     "APPS_TWITTER_TWEET_MESSAGE_PLACEHOLDER": "What's happening?",
     "APPS_TWITTER_IMAGE_PLACEHOLDER": "A link to your image or gif",
@@ -110,7 +106,6 @@
     "APPS_TWITTER_NEW_BROADCAST": "New tweet from @{{ profile_name }}!",
     "APPS_TWITTER_NEW_RETWEET_BROADCAST": "@{{ profile_name }} retweeted someone!",
     "APPS_TWITTER_UNREAD_MESSAGES": "You have {{ count }} new tweets in your timeline!",
-
     "APPS_MATCH": "Matchmaker",
     "APPS_MATCH_LIKED": "LIKE",
     "APPS_MATCH_NOPE": "NOPE",
@@ -140,7 +135,6 @@
     "APPS_MATCH_SAVE_LIKES_FAILED": "Failed to save likes",
     "APPS_MATCH_SAVE_LIKES_SUCCEDED": "Successfully saved likes",
     "APPS_MATCH_NEW_LIKE_FOUND": "New match found!",
-
     "APPS_BANK_TRANSFER": "Transfer",
     "APPS_BANK_HOME_TITLE": "Welcome",
     "APPS_BANK_ACCOUNT_LINK": "Account",
@@ -151,7 +145,6 @@
     "APPS_BANK_ACTIONS_TRANSFER": "Transfer",
     "APPS_BANK_ALERT_TRANSFER_SUCCESS": "Transfer done successfully!",
     "APPS_BANK_ALERT_TRANSFER_FAILURE": "Transfer failed!",
-
     "APPS_MESSAGES_SEARCH_PLACEHOLDER": "Search messages...",
     "APPS_MESSAGES_NEW_MESSAGE": "Message...",
     "APPS_MESSAGES_NEW_MESSAGE_FAILED:": "Failed to send message",
@@ -169,11 +162,9 @@
     "APPS_MESSAGES_UNREAD_MESSAGES": "You have {{ count }} unread messages",
     "APPS_MESSAGES_MEMBERS_TITLE": "Members",
     "APPS_MESSAGES_ME": "Me",
-
     "APPS_CONTACT_FORM_NAME": "Name",
     "APPS_CONTACT_FORM_NUMBER": "Number",
     "APPS_CONTACT_FORM_AVATAR": "Avatar URL",
-
     "APPS_CONTACT_ADD_SUCCESS": "Successfully created contact!",
     "APPS_CONTACT_ADD_FAILED": "Failed to created contact!",
     "APPS_CONTACT_UPDATE_SUCCESS": "Successfully updated contact!",
@@ -185,16 +176,13 @@
     "APPS_CONTACT_MODAL_PLACEHOLDER_NUMBER": "Number",
     "APPS_CONTACT_MODAL_PLACEHOLDER_AVATAR": "Avatar",
     "APPS_CONTACT_MODAL_BUTTON_ADD": "Add Contact",
-
     "APPS_NOTES_ADD_SUCCESS": "Successfully saved note.",
     "APPS_NOTES_ADD_FAILED": "Failed to save note.",
     "APPS_NOTES_UPDATE_SUCCESS": "Successfully updated note.",
     "APPS_NOTES_UPDATE_FAILED": "Failed to update note.",
     "APPS_NOTES_DELETE_SUCCESS": "Successfully deleted note.",
     "APPS_NOTES_DELETE_FAILED": "Failed to delete note.",
-
     "APPS_CALCULATOR_COPIED": "Result was copied to clipboard!",
-
     "APPS_SETTINGS_PHONE_NUMBER": "Phone Number",
     "APPS_SETTINGS_OPTION_WALLPAPER": "Wallpaper",
     "APPS_SETTINGS_OPTIONS_CUSTOM_WALLPAPER": "Custom Wallpaper",
@@ -208,7 +196,6 @@
     "APPS_SETTINGS_OPTION_NOTIFICATION": "Notification",
     "APPS_SETTINGS_OPTION_NOTIFICATIONVOL": "Notification Volume",
     "APPS_SETTING_STREAMER_MODE_DESC": "Hide images before they are shown",
-
     "APPS_MARKETPLACE_CREATE_LISTING_SUCCESS": "Successfully created a new listing",
     "APPS_MARKETPLACE_CREATE_LISTING_FAILED": "Failed to create a new listing",
     "APPS_MARKETPLACE_DELETE_LISTING_SUCCESS": "Successfully delete listing",
@@ -219,7 +206,6 @@
     "APPS_MARKETPLACE_FORM_TITLE": "Title",
     "APPS_MARKETPLACE_FORM_IMAGE": "Image or URL",
     "APPS_MARKETPLACE_FORM_DESCRIPTION": "Description",
-
     "GENERIC_CLICK_TO_REVEAL": "Click to reveal",
     "GENERIC_WAIT": "Please wait...",
     "GENERIC_SAVE": "Save",

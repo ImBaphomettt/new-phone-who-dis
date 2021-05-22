@@ -39,10 +39,8 @@
       "y": "ett år",
       "yy": "%d år"
     },
-
     "COMING_SOON": "Kommer snart...",
     "INITIALIZING": "Starter",
-
     "APPS_DIALER": "Telefon",
     "APPS_CONTACTS": "Kontakter",
     "APPS_MESSAGES": "Meldinger",
@@ -52,9 +50,8 @@
     "APPS_NOTES": "Notater",
     "APPS_EXAMPLE": "Example app",
     "APPS_TWITTER": "Twitter",
-    "APPS_SELLOUT": "Marked",
+    "APPS_MARKETPLACE": "Marked",
     "APPS_CAMERA": "Kamera",
-
     "APPS_DIALER_INCOMING_CALL_TITLE": "Innkommende Anrop",
     "APPS_DIALER_CURRENT_CALL_TITLE": "Samtale",
     "APPS_DIALER_CURRENT_CALL_WITH": "I samtale med {{ transmitter }}",
@@ -63,7 +60,6 @@
     "APPS_DIALER_REJECT_CALL": "Avvis",
     "APPS_DIALER_END_CALL": "Legg på",
     "APPS_DIALER_NO_HISTORY": "Du har ingen historikk",
-
     "APPS_TWITTER_TWEET": "Tweet",
     "APPS_TWITTER_TWEET_MESSAGE_PLACEHOLDER": "Hva skjer'a brur?",
     "APPS_TWITTER_IMAGE_PLACEHOLDER": "En link med bilde ditt",
@@ -99,7 +95,6 @@
     "APPS_TWITTER_NEW_BROADCAST": "Ny tweet fra @{{ profile_name }}!",
     "APPS_TWITTER_NEW_RETWEET_BROADCAST": "@{{ profile_name }} retvitret noen!",
     "APPS_TWITTER_UNREAD_MESSAGES": "Du har {{ count }} nye tweets siden sist",
-
     "APPS_MATCH": "Matchmaker",
     "APPS_MATCH_LIKED": "LIKE",
     "APPS_MATCH_NOPE": "NOPE",
@@ -129,7 +124,6 @@
     "APPS_MATCH_SAVE_LIKES_FAILED": "Kunne ikke lagre likes",
     "APPS_MATCH_SAVE_LIKES_SUCCEDED": "Larget likes",
     "APPS_MATCH_NEW_LIKE_FOUND": "Ny match!",
-
     "APPS_BANK_TRANSFER": "Overføring",
     "APPS_BANK_HOME_TITLE": "Velkommen",
     "APPS_BANK_ACCOUNT_LINK": "Konto",
@@ -140,7 +134,6 @@
     "APPS_BANK_ACTIONS_TRANSFER": "Overføring",
     "APPS_BANK_ALERT_TRANSFER_SUCCESS": "Pengene ble overført!",
     "APPS_BANK_ALERT_TRANSFER_FAILURE": "Pengene ble ikke overført!",
-
     "APPS_MESSAGES_SEARCH_PLACEHOLDER": "Søk etter meldinger...",
     "APPS_MESSAGES_NEW_MESSAGE": "Melding...",
     "APPS_MESSAGES_NEW_MESSAGE_FAILED:": "Kunne ikke sende melding",
@@ -155,11 +148,9 @@
     "APPS_MESSAGES_UNREAD_MESSAGES": "Du har {{ count }} uleste meldinger",
     "APPS_MESSAGES_MEMBERS_TITLE": "Medlemmer",
     "APPS_MESSAGES_ME": "Meg",
-
     "APPS_CONTACT_FORM_NAME": "Navn",
     "APPS_CONTACT_FORM_NUMBER": "Nummer",
     "APPS_CONTACT_FORM_AVATAR": "Avatar URL",
-
     "APPS_CONTACT_ADD_SUCCESS": "Opprettet kontakt!",
     "APPS_CONTACT_ADD_FAILED": "Kunne ikke opprette kontakt!",
     "APPS_CONTACT_UPDATE_SUCCESS": "Oppdatert kontakt!",
@@ -171,16 +162,13 @@
     "APPS_CONTACT_MODAL_PLACEHOLDER_NUMBER": "Telefonnummer",
     "APPS_CONTACT_MODAL_PLACEHOLDER_AVATAR": "Avatar",
     "APPS_CONTACT_MODAL_BUTTON_ADD": "Legg til",
-
     "APPS_NOTES_ADD_SUCCESS": "Lagret notat!",
     "APPS_NOTES_ADD_FAILED": "Kunne ikke lagre notatet!",
     "APPS_NOTES_UPDATE_SUCCESS": "Oppdatert notat!",
     "APPS_NOTES_UPDATE_FAILED": "Kunne ikke oppdatere notatet!",
     "APPS_NOTES_DELETE_SUCCESS": "Slettet notat!",
     "APPS_NOTES_DELETE_FAILED": "Kunne ikke slette notatet!",
-
     "APPS_CALCULATOR_COPIED": "Teskten ble kopiert",
-
     "APPS_SETTINGS_PHONE_NUMBER": "Telefonnummer",
     "APPS_SETTINGS_OPTION_WALLPAPER": "Bakgrunn",
     "APPS_SETTINGS_OPTIONS_CUSTOM_WALLPAPER": "Tilpasset bakgrunn",
@@ -194,14 +182,12 @@
     "APPS_SETTINGS_OPTION_NOTIFICATION": "Notifikasjon",
     "APPS_SETTINGS_OPTION_NOTIFICATIONVOL": "Notifikasjons Volum",
     "APPS_SETTING_STREAMER_MODE_DESC": "Skjul bilder før de vises",
-
     "APPS_MARKETPLACE_CREATE_LISTING_SUCCESS": "Opprettet ny annonse!",
     "APPS_MARKETPALCE_CREATE_LISTING_FAILED": "Kunne ikke opprette annonse!",
     "APPS_MARKETPLACE_DELETE_LISTING_SUCCESS": "Slettet annonse!",
     "APPS_MARKETPLACE_DELETE_LISTING_FAILED": "Kunne ikke opprette annonse!",
     "APPS_MARKETPLACE_REPORT_LISTING_FAILED": "Annonsen har allerede blitt rapportet",
     "APPS_MARKETPLACE_REPORT_LISTING_SUCCESS": "Annonsen er rapportert",
-
     "GENERIC_CLICK_TO_REVEAL": "Trykk for å se",
     "GENERIC_WAIT": "Vennligst vent...",
     "GENERIC_SAVE": "Lagre",

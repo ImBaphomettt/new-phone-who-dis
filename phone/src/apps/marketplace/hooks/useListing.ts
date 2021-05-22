@@ -1,7 +1,7 @@
 import { useRecoilValue } from 'recoil';
 import { MarketplaceListing } from '../../../../../typings/marketplace';
-import { selloutState } from './state';
+import { marketplaceState } from './state';
 
 export const useListing = () => {
-  return useRecoilValue<MarketplaceListing[]>(selloutState.listing);
+  return useRecoilValue<MarketplaceListing[]>(marketplaceState.listing);
 };

@@ -5,7 +5,7 @@ import { MarketplaceListing } from '../../typings/marketplace';
 import { reportListingToDiscord } from './discord';
 import { MarketplaceEvents } from '../../typings/marketplace';
 
-const selloutLogger = mainLogger.child({ module: 'sellout' });
+const marketplaceLogger = mainLogger.child({ module: 'marketplace' });
 
 async function fetchAllListings(): Promise<MarketplaceListing[]> {
   const query = 'SELECT * FROM npwd_marketplace_listings ORDER BY id DESC';
@@ -67,7 +67,7 @@ onNet(MarketplaceEvents.FETCH_LISTING, async () => {
     const listings = await fetchAllListings();
     emitNet(MarketplaceEvents.SEND_LISTING, _source, listings);
   } catch (e) {
-    selloutLogger.error(`Failed to fetch listings, ${e.message}`, {
+    marketplaceLogger.error(`Failed to fetch listings, ${e.message}`, {
       source: _source,
     });
   }
@@ -93,7 +93,7 @@ onNet(MarketplaceEvents.ADD_LISTING, async (listing: MarketplaceListing) => {
       type: 'success',
     });
   } catch (e) {
-    selloutLogger.error(`Failed to add listing ${e.message}`, {
+    marketplaceLogger.error(`Failed to add listing ${e.message}`, {
       source: _source,
     });
 
@@ -119,7 +119,7 @@ onNet(MarketplaceEvents.DELETE_LISTING, async (listingId: number) => {
       type: 'success',
     });
   } catch (e) {
-    selloutLogger.error(`Failed to delete listing ${e.message}`, {
+    marketplaceLogger.error(`Failed to delete listing ${e.message}`, {
       source: pSource,
     });
     emitNet(MarketplaceEvents.ACTION_RESULT, pSource, {
@@ -140,7 +140,7 @@ onNet(MarketplaceEvents.REPORT_LISTING, async (listing: MarketplaceListing) => {
     const reportingPlayer = GetPlayerName(pSource);
     if (reportExists) {
       // send an info alert
-      selloutLogger.error(`This listing has already been reported`);
+      marketplaceLogger.error(`This listing has already been reported`);
       return emitNet(MarketplaceEvents.ACTION_RESULT, pSource, {
         message: 'MARKETPLACE_REPORT_LISTING_FAILED',
         type: 'info',
@@ -155,7 +155,7 @@ onNet(MarketplaceEvents.REPORT_LISTING, async (listing: MarketplaceListing) => {
       type: 'success',
     });
   } catch (e) {
-    selloutLogger.error(`Failed to report listing ${e.message}`, {
+    marketplaceLogger.error(`Failed to report listing ${e.message}`, {
       source: pSource,
     });
   }
